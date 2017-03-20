@@ -1,7 +1,8 @@
-***Preprocessing & Visualisation for Country***
+## Preprocessing & Visualisation for Country
 
-***Preprocessing***
+## Preprocessing
 - Create new book
 - Add column for Country Adj
-***Pass 1***
+
+## Pass 1
 - Categories (UK, United States, Other)
