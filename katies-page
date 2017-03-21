@@ -1,3 +1,3 @@
 Pre-processing data for looking at Facebook likes:
-*Had to delete a lot (~2k!) entries with 0 likes
-*Sorted by facebook likes and ranked - found 25%/75% rank with which to assign low/medium/high labels
+ - Had to delete a lot (~2k!) entries with 0 likes
+ - Sorted by facebook likes and ranked - found 25%/75% rank with which to assign low/medium/high labels
