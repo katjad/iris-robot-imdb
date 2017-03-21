@@ -3,4 +3,5 @@ Pre-processing data for looking at Facebook likes:
  - Sorted by facebook likes and ranked - found 25%/75% rank with which to assign low/medium/high labels
 
 Data visualisation
- - Managed to plot gross against likes labelled and colour coded with high/medium/low (line In[18] of notebook) but this took quite some messing around with googling stuff on using pandas
+ - Managed to plot gross against likes labelled and colour coded with high/medium/low (line In[18] of notebook) but this took quite 
+ some messing around with googling stuff on using pandas
