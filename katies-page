@@ -5,3 +5,7 @@ Pre-processing data for looking at Facebook likes:
 Data visualisation
  - Managed to plot gross against likes labelled and colour coded with high/medium/low (line In[18] of notebook) but this took quite 
  some messing around with googling stuff on using pandas
+- Went to tutorial on predicting movie score and saw use of correlation matrix on quantitative data only - can calculate this easily
+using df.corr(). Used seaborn heatmap plot - possible correlations with num_cfritic, actor3_facebook, gross, num_voted, cast_total,
+num_user, actor2_facebook, imdb_score. Question remains on how to do qualitative data?
+- NB had an issue of not seeing plots inside jupyter, this was due to needing comman 'matlib plot inline'
