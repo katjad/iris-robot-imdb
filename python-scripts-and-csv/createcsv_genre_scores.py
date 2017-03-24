@@ -1,3 +1,4 @@
+'''Creates a csv with really long rows - Genre plus the scores that have been given for each film in that genre. Variable col numbers'''
 import csv
 
 genres = ["Action","Adventure","Fantasy","Sci-Fi","Thriller","Documentary","Romance","Animation","Comedy","Family","Musical","Mystery","Western","Drama","History","Sport","Crime","Horror","War","Biography","Music"]
@@ -41,4 +42,3 @@ with open("movie_metadata.csv", newline='') as f:
             last = value[-1]            
             #print([key]+[value])
             writer.writerow([key]+value)
-   

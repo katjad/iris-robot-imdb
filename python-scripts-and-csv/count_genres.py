@@ -1,10 +1,11 @@
+'''Takes a single column text file with words|grouped|like|this, counts the occurence of each word and sorts from highest to lowest''' 
 from operator import itemgetter    
 
 # for analysing plot keywords:
-with open("plotkeywords_column.txt") as f:
-    with open("plotkeywords_counted.txt", "w") as f1:
-# with open("genre_column.txt") as f:
-#     with open("genre_counted.txt", "w") as f1:
+# with open("plotkeywords_column.txt") as f:
+    # with open("plotkeywords_counted.txt", "w") as f1:
+with open("genre_column.txt") as f:
+    with open("genre_counted.txt", "w") as f1:
         d = dict()
         for line in f:
             genre_list = line.split('|')
