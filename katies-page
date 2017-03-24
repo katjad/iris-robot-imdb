@@ -12,3 +12,10 @@ http://seaborn.pydata.org/examples/network_correlations.html
 - NB had an issue of not seeing plots inside jupyter, this was due to needing comman 'matlib plot inline'
 - Saving seaborn plots from within Jupyter - tried various methods of savefig but didn't seem to be working, actually looks like command
 was just taking a long time to process so shutdown and re-opened notebook. This worked although output figure isn't great.
+
+Feature Analysis
+- Would like to know how to pick features to use in classifier based on correlation matrix. Useful webpage: 
+http://blog.datadive.net/selecting-good-features-part-i-univariate-selection/
+- Suggests that the df.corr() method (which I think by default uses pearson correlation} is fine but note only shows up linear 
+relationships. Might therefore be worth plotting each individual feature anyway. Or perhaps trying one of those big seaborn matrix plots
+with labelled data?
