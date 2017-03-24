@@ -7,5 +7,8 @@ Data visualisation
  some messing around with googling stuff on using pandas
 - Went to tutorial on predicting movie score and saw use of correlation matrix on quantitative data only - can calculate this easily
 using df.corr(). Used seaborn heatmap plot - possible correlations with num_cfritic, actor3_facebook, gross, num_voted, cast_total,
-num_user, actor2_facebook, imdb_score. Question remains on how to do qualitative data?
+num_user, actor2_facebook, imdb_score. Question remains on how to do qualitative data? Example cose here: 
+http://seaborn.pydata.org/examples/network_correlations.html
 - NB had an issue of not seeing plots inside jupyter, this was due to needing comman 'matlib plot inline'
+- Saving seaborn plots from within Jupyter - tried various methods of savefig but didn't seem to be working, actually looks like command
+was just taking a long time to process so shutdown and re-opened notebook. This worked although output figure isn't great.
