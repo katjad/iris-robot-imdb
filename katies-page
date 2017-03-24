@@ -23,4 +23,6 @@ with labelled data?
 seems that the histogram plotting doesn't like empty values so tried putting zeros in all blank cells in excel. Worked! Now have a pair 
 plot for all quant data with labelled number of facebook likes (low/medium/high). This is a huge graph! Now need to go through it and 
 figure out what it means. Diagnals are just individual features versus facebook likes right? I.e. how does the frequency of high/medium/low
-facebook likes spread over the various values of that feature. So that's good for individual checking of feature importance. 
+facebook likes spread over the various values of that feature. So that's good for individual checking of feature importance.
+- Next steps: what can we gain from that huge pairplot and how can we approach qualitative data (Katja's python script likely to be useful
+here)
