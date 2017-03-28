@@ -29,6 +29,6 @@
 
 ## Working on Visualisation - 28th March
 
-- I think I have a problem in that the four data types I am using are so different - even though they are all numbers, they are different orders, (millions vs single digits). So Boxplot does something supremely unhelpful, specifically because of the vast size of budgets. I will potentially try again with an artificially reduced budget figure (divide it by 1million?)
+- I think I have a problem in that the four data types I am using are so different - even though they are all numbers, they are different orders, (millions vs single digits). So Boxplot does something supremely unhelpful.
 - The pairplot has revealed a few interesting things. A couple of unexpected correlations, but also some mega outliers, which I assume are faulty data (e.g. a Hungarian film that apparently had a budget of $2.5 billion that only took £190k in box office) - I assume we take these out, but wanted to check with you both first.
 
