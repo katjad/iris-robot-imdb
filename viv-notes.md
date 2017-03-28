@@ -26,3 +26,9 @@
 - Selected four categories of interest to contrast against country_adj - Number of Votes, Number of reviews, budget & score
 - Removed any rows with blanks for any to keep the data clean-ish (lots of NaN displayed otherwise and I didn't know what this would do to any plots
 - Finally managed to get a plot to run with just country_adj vs budget. However the budget numbers have so much variance yet start so high, I may have to decimalise it somehow.
+
+## Working on Visualisation - 28th March
+
+- I think I have a problem in that the four data types I am using are so different - even though they are all numbers, they are different orders, (millions vs single digits). So Boxplot does something supremely unhelpful, specifically because of the vast size of budgets. I will potentially try again with an artificially reduced budget figure (divide it by 1million?)
+- The pairplot has revealed a few interesting things. A couple of unexpected correlations, but also some mega outliers, which I assume are faulty data (e.g. a Hungarian film that apparently had a budget of $2.5 billion that only took £190k in box office) - I assume we take these out, but wanted to check with you both first.
+
