@@ -27,3 +27,12 @@ figure out what it means. Diagnals are just individual features versus facebook 
 facebook likes spread over the various values of that feature. So that's good for individual checking of feature importance.
 - Next steps: what can we gain from that huge pairplot and how can we approach qualitative data (Katja's python script likely to be useful
 here)
+
+Feature Analysis Cont.
+- Tried to access elements of correlation matrix to plot a bar chart and see which correlations are above a certain value (say 0.7) in order for inclusion in classifier. Proved difficult to access matrix elements in an easy way - i.e. to create an array based on one column of the matrix (tried standard matrix[:,1:-1] as well as .iloc and neither seemed to work right). Will go ahead and just try knn classifier based on all quantitative data. Cheaty solution/workaround would possibly be to import the correlation matrix into excel and manipulate it there and reimport.
+- Knn classifier as used in class achieved 54.8% accuracy based on all quantitative data. Would now be really interested to re-run with selected, higher correlation data. Rough job would be to pick out correlations by eye (heatmap diagram and checking matrix numbers), manipulating csv in excel to delete irrelevant info and re-importing -> 'reduced_quant_only_movie_metadata.csv'
+- Stat with correlations > 0.5 - this would feature set of num_critic_reviews, num_voted_users, num_users_reviews only. Decided to also include gross at 0.499. Improved the knn classifier accuracy to 60.2%. 
+
+Qualitative Features Analysis
+- Used Katjas script to produce a CSV of title, genres list and facebook likes
+
