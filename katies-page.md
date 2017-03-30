@@ -34,5 +34,6 @@ Feature Analysis Cont.
 - Stat with correlations > 0.5 - this would feature set of num_critic_reviews, num_voted_users, num_users_reviews only. Decided to also include gross at 0.499. Improved the knn classifier accuracy to 60.2%. 
 
 Qualitative Features Analysis
-- Used Katjas script to produce a CSV of title, genres list and facebook likes
+- Used Katjas script to produce a CSV of title, genres list and facebook likes. Then used another script to find total low/medium/high rated films for each genre. Need to go through this and figure out which (if any) genres are relevant to face book likes. 
+- As proof of concept for dealing with qualitative data - Viv suggested taking Katja's yes/no type csv and made it binary 1s and 0s and then put that as raw data into quantiative knn classifier training. Found it slightly reduced accuracy - but as proof of concept discrete qualitative categories can be turned into quantitative data. Next question - what about data like actors and directors?
 
