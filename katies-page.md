@@ -37,3 +37,6 @@ Qualitative Features Analysis
 - Used Katjas script to produce a CSV of title, genres list and facebook likes. Then used another script to find total low/medium/high rated films for each genre. Need to go through this and figure out which (if any) genres are relevant to face book likes. 
 - As proof of concept for dealing with qualitative data - Viv suggested taking Katja's yes/no type csv and made it binary 1s and 0s and then put that as raw data into quantiative knn classifier training. Found it slightly reduced accuracy - but as proof of concept discrete qualitative categories can be turned into quantitative data. Next question - what about data like actors and directors?
 
+Workshop Day 5
+- Did some python scripting with Katja to produce a two column data set with all genres and scores/facebook likes next to them, matching the iris data set layout such that we could make boxplots from them. 
+- Spoke to Chew-Yean about the classifier and she suggested getting rid of the data with gross=0 and then normalising the remaining data and re-running the classifier to see if that improves accuracy; the huge difference in scales between gross and number of reviews for example will mess up knn which is distance based. 
